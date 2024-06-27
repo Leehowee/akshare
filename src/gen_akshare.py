@@ -59,7 +59,7 @@ class GenTask(object):
     
     def gen_data(self):
         """ gen data """
-        # gen_cctv_news_by_day(self.date_minute)
+        gen_cctv_news_by_day(self.date_minute)
         gen_monitor_data()
         gen_china_macro_index_data()
 
